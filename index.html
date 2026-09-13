@@ -1,64 +1,43 @@
 <!--Moses Marvian Arsata / 535250050-->
-<!DOCTYPE html> <!--Versi HTML yang digunakan-->
 
-<html lang="id"> <!--Pembukaan HTML dan bahasa yang digunakan dalam HTML-->
+<!DOCTYPE html>
 
-<head> <!--Bagian kepala pada HTML-->
-    <meta charset="UTF-8"> <!--Sistem Character Encoding yang digunakan pada HTML-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Mengatur dimensi pada HTML di device berbeda-->
-    <title>Profil Mahasiswa</title> <!--Judul pada page HTML-->
-    <link rel="stylesheet" href="style.css"> <!--Penghubung ke file CSS-->
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body> <!--Bagian tubuh pada HTML, berisi rangkaian isi HTML-->
-    <header> <!--Bagian header yang merupakan bagian paling atas pada page HTML-->
-        <h1>Website Pertama Saya</h1> <!--Teks H1 pada heading-->
-        <p>Belajar Pemrograman Antarmuka Pengguna</p> <!--Teks paragraph pada HTML-->
+<body>
+    <header>
+        <h1>Tugas Praktikum 2</h1>
+        <p>Frontend Programming (ㆆ_ㆆ)</p>
     </header>
 
-    <nav> <!--Bagian navigation yang merupakan bagian dibawah header yang berisi tombol navigasi-->
-        <a href="#">Home</a> <!--Tombol navigasi-->
-        <a href="#">Profile</a> <!--Tombol navigasi-->
-        <a href="#">Contact</a> <!--Tombol navigasi-->
-    </nav>
-
-    <article> <!--Bagian article yang merupakan isi utama pada file HTML-->
-        <div id="img1"> <!--Container untuk bagian image-->
-            <img src="image.jpg" width="90%" alt="Gambar pemandangan"> <!--Bagian yang menunjukkan image-->
+    <article>
+        <div id="img1">
+            <img src="image.jpg" width="90%" alt="Gambar pemandangan">
         </div>
 
-        <div class="welcome"> <!--Container untuk bagian tulisan selamat datang-->
-            <h2>Selamat Datang</h2> <!--Teks H2 pada bagian welcome-->
-            <p>Ini adalah <span class="highlight">website pertama</span> saya.</p> <!--Teks paragraph pada bagian welcome-->
+        <div class="welcome">
+            <h2>Halo ¯\_(ツ)_/¯</h2>
+            <p>Silahkan klik <span class="highlight">tombol dibawah</span> ini ◝(ᵔᵕᵔ)◜</p>
         </div>
-
-        <div id="about"> <!--Container untuk bagian about me-->
-            <h3>About me</h3> <!--Teks H3 pada bagian about-->
-            <p>Saya <span class="highlight1">Moses Marvian Arsata</span>. Saya merupakan mahasiswa <span class="highlight2">Teknik Informatika Angkatan 2025</span>.</p> <!--Teks paragraph pada bagian about-->
-        </div>
-
-        <hr color="#e0493e"> <!--Horizontal line sebagai pemisah antara about dan description-->
-
-        <div id="description"> <!--Container untuk bagian deskripsi pribadi-->
-            <h3>Deskripsi Singkat</h3> <!--Teks H3 pada bagian description-->
-            <p>Saya adalah mahasiswa <span class="highlight1">Informatika</span> yang memiliki minat pada <span class="highlight2">software development, problem solving, dan pengembangan aplikasi</span>. Saya senang <span class="highlight3">mempelajari berbagai teknologi serta menerapkannya melalui proyek-proyek praktis.</span></p> <!--Teks paragraph dengan beberapa penggunaan class pada span untuk highlight teks pada bagian description-->
-            <p><span class="highlight3">NIM</span> saya adalah <span class="highlightnim">535250050</span>.</p> <!--Teks paragraph dengan beberapa penggunaan class pada span untuk highlight teks pada bagian description-->
-            <p>Ini adalah akun <span class="highlight3">GitHub</span> saya: <a href="https://github.com/MosyMavy" target="_blank">Mosymavy</a></p> <!--Teks paragraph dengan beberapa penggunaan class pada span untuk highlight teks pada bagian description, dan juga terdiri dari a (hyperlink) yang digunakan untuk redirect ke link GitHub, dengan _blank akan membuka page baru-->
-        </div>
-
-        <div id="skill"> <!--Container untuk bagian keahlian/minat-->
-            <h3>Keahlian/Minat</h3> <!--Teks H3 pada bagian skill-->
-            <ul> <!--Inisialisasi unordered list pada bagian skill-->
-                <li><span class="highlight">Coding</span>: C++, Java, JavaScript</li> <!--List 1 pada unordered list dengan penggunaan class pada span untuk highlight pada bagian skill-->
-                <li><span class="highlight">Main game</span>: RPG, Multiplayer</li> <!--List 2 pada unordered list dengan penggunaan class pada span untuk highlight pada bagian skill-->
-                <li><span class="highlight">Nonton series</span>: Film, Anime, Drama</li> <!--List 3 pada unordered list dengan penggunaan class pada span untuk highlight pada bagian skill-->
-            </ul>
+    
+        <div id="information">
+            <button type="button" id="show">Tampilkan Nama & NIM</button>
+            <button type="button" id="hide">Hilangkan Nama & NIM</button>
         </div>
     </article>
 
-    <footer> <!--Bagian footer yang berisi bagian paling bawah pada page HTML, yang merupakan isi copyright-->
-        <p>&copy; 2026 MOSES MARVIAN ARSATA / 535250050</p> <!--Teks paragraph yang berisi hak cipta, dengan &copy; merupakan simbol copyright-->
+    <footer>
+        <p>&copy; 2026 MOSES MARVIAN ARSATA / 535250050</p>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 
 </html>
