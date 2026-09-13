@@ -20,20 +20,22 @@ document.getElementById('hide').addEventListener('click', function() {
 // bisa juga dengan mengosongkan innerHTML, dengan cara membuat inisialisasi innerHTML di dalam function,
 // namun ini tidak akan menghapus id info
 
-// Contoh:
 /*
-    document.getElementById('show').addEventListener('click', function() {
-        info.innerHTML = '<p>Moses Marvian Arsata</p>';
+Contoh:
 
-        let text = document.createTextNode('NIM: 535250050');
-        info.appendChild(text);
+document.getElementById('show').addEventListener('click', function() {
+    info.innerHTML = '<p>Moses Marvian Arsata</p>';
 
-        document.getElementById('information').appendChild(info);
-    });
+    let text = document.createTextNode('NIM: 535250050');
+    info.appendChild(text);
 
-    document.getElementById('hide').addEventListener('click', function() {
-        info.innerHTML = '';
+    document.getElementById('information').appendChild(info);
+});
 
-        document.getElementById('information').appendChild(info);
-    });
+document.getElementById('hide').addEventListener('click', function() {
+    info.innerHTML = '';
+
+    document.getElementById('information').appendChild(info);
+});
+
 */
