@@ -1,0 +1,15 @@
+Moses Marvian Arsata / 535250050
+
+1. Fungsi Utama HTML adalah sebagai struktur utama dalam tampilan web, dimana ada inisialisasi html, head, dan body. Body berisi seluruh isi yang akan ditampilkan pada web, yang dimana ada teks, image ataupun media lainnya, beserta class yang digunakan.
+
+2. Fungsi Utama CSS adalah sebagai sarana desain atau styling pada file HTML. Dengan CSS, maka tampilan web pada file HTML dapat lebih bagus lagi dan dapat ditentukan sesuai dengan selera pemilik.
+
+3. Eksternal CSS digunakan karena dengan berbeda file, maka dapat dengan mudah untuk melakukan perubahan pada desain web atau file html dengan hanya membuka folder CSS, dan juga tidak perlu lagi menulis satu per satu styling pada file HTML.
+
+4. Fungsi <header>, <nav>, <article>, dan <footer> adalah
+<header> berfungsi sebagai bagian paling atas pada website, yang biasa digunakan sebagai judul pada website.
+<nav> berfungsi sebagai bagian navigasi yang bisa berisi tombol-tombol navigasi yang ada pada website.
+<article> berfungsi sebagai bagian isi utama pada website, baik itu berisi artikel, isi deskripsi, mau apapun itu.
+<footer> berfungsi sebagai bagian paling bawah pada web yang biasa berisi hak cipta pembuat.
+
+5. Perubahan CSS yang dilakukan pada latihan adalah warna background dan teks, ukuran font, padding dan margin, dan font family. Bagian yang paling sudah dikuasai adalah penggunaan class pada HTML dan CSS dan juga modifikasi warna, ukuran font, dll. Yang masih perlu dilatih adalah bagian penentuan margin dan padding, layout alignment pada teks maupun gambar agar lebih rapi, dan kapan menggunakan auto, px, em, %, dll.

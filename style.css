@@ -1,0 +1,215 @@
+/* Moses Marvian Arsata / 535250050 */
+
+/* Body mengatur style utama pada HTML */
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    background: #f1ead8;
+    color: #33312e;
+}
+/* Margin menjadi 0, font tahoma, background berwarna putih, dan warna text hitam */
+
+/* Style h2 secara universal */
+h2 {
+    font-size: 28px;
+}
+/* Font size 28px */
+
+/* Style h3 secara universal */
+h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+/* Margin bawah h3 15px, dan font size 24px */
+
+/* Style p (paragraph) secara universal */
+p {
+    font-size: 16px;
+}
+/* Font size 16px */
+
+/* Style pada bagian header secara universal */
+header {
+    padding: 40px;
+    font-size: 20px;
+    text-align: center;
+    background: #70160d;
+    color: #ffe6d4;
+}
+/* Background warna merah tua, padding 40px, font size 20px, isi menengah, dan warna text putih */
+
+/* Style h1 pada bagian header */
+header h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+/* Font Trebuchet MS, spacing letter 1px, dan font size 50px */
+
+/* Style p (paragraph) pada bagian header */
+header p {
+    font-size: 24px;
+    font-family: 'Courier New', monospace;
+}
+/* Font size 24px, dan font Courier New */
+
+/* Style pada bagian nav (navigation) secara universal */
+nav {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    background: #e0493e;
+}
+/* Background warna merah muda, isi menengah, font size 20px, dan padding 15px */
+
+/* Style a (hyperlink) pada bagian nav secara universal */
+nav a {
+    padding: 10px;
+    font-weight: 1000;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+/* Padding 10px, ukuran tebal teks 1000, tidak ada text decoration (menghilangkan garis bawah pada a (hyperlink), letter spacing 1px, dan warna text putih */
+
+/* Style pada bagian article secara universal */
+article {
+    margin: auto;
+    padding: 30px;
+    max-width: 900px;
+    text-align: center;
+}
+/* Margin auto, padding 30px, lebar max 900px, dan isi menengah */
+
+/* Style p (paragraph) pada class welcome */
+.welcome p {
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+}
+/* Font Courier New, dan ukuran tebal teks 500 */
+
+/* Style p (paragraph) ketika span dengan class highlight pada class welcome */
+.welcome p span.highlight {
+    font-weight: 1000;
+    text-decoration: underline;
+    color: #e0493e;
+}
+/* Ukuran tebal teks 1000, text underline, dan text warna merah muda */
+
+/* Style pada id img1 secara universal */
+#img1 {
+    text-align: center;
+}
+/* isi menengah */
+
+/* Style pada id about secara universal */
+#about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+/* margin atas 50px, margin bawah 50px, dan isi rata kiri */
+
+/* Style p (paragraph) ketika span dengan class highlight1 pada id about */
+#about p span.highlight1 {
+    font-weight: 1000;
+    text-decoration: wavy;
+    color: #e0493e;
+}
+/* Ukuran tebal teks 1000, text decoration wavy, dan warna text merah muda */
+
+/* Style p (paragraph) ketika span dengan class highlight2 pada id about */
+#about p span.highlight2 {
+    font-weight: 1000;
+    font-family: 'Georgia', serif;
+    color: #70160d;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #e0493e;
+}
+/* Ukuran tebal teks 1000, font Georgia, warna teks merah tua, border berbentuk titik, tebal border 2px, dan warna border merah muda */
+
+/* Style pada id description secara universal */
+#description {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+/* Margin atas 50px, margin bawah 50px, dan isi rata kanan */
+
+/* Style p (paragraph) ketika span dengan class highlight1 pada id description */
+#description p span.highlight1 {
+    text-decoration: underline;
+    font-weight: 1000;
+    color: #e0493e;
+}
+/* Text underline, ukuran tebal teks 1000, dan warna teks merah muda */
+
+/* Style p (paragraph) ketika span dengan class highlight2 pada id description */
+#description p span.highlight2 {
+    font-weight: 1000;
+    font-family: 'Georgia', serif;
+    color: #70160d;
+}
+/* Ukuran tebal teks 1000, font Georgia, dan warna teks merah tua */
+
+/* Style p (paragraph) ketika span dengan class highlight3 pada id description */
+#description p span.highlight3 {
+    font-weight: 1000;
+    font-family: 'Georgia', serif;
+    text-decoration: dashed;
+    color: #e0493e;
+}
+/* Ukuran tebal teks 1000, font Georgia, text decoration dashed, dan warna teks merah muda */
+
+/* Style p (paragraph) ketika span dengan class highlightnim pada id description */
+#description p span.highlightnim {
+    font-family: 'Courier New', monospace;
+    font-weight: 1000;
+    color: #70160d;
+}
+/* Font Courier New, ukuran tebal teks 1000, dan warna teks merah tua */
+
+/* Style p (paragraph) ketika ada bagian a (hyperlink) pada id description */
+#description p a {
+    color: #e0493e;
+}
+/* Warna teks merah muda */
+
+/* Style pada id skill secara universal */
+#skill {
+    margin-left: 250px;
+    margin-right: 250px;
+    max-width: 400px;
+    text-align: center;
+    color: #ffe6d4;
+    background: #e0493e;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e0493e;
+}
+/* Margin kiri 250px, margin kanan 250px, lebar max 400px, isi menengah, warna teks putih, warna background merah muda, border berbentuk garis solid, tebal border 2px, dan warna border merah muda */
+
+/* Style ul (unordered list) pada id skill */
+#skill ul {
+    text-align: left;
+    font-size: 20px;
+}
+/* isi rata kiri, font size 20px */
+
+/* Style ul (unordered list) ketika ada bagian span dengan class highlight pada id skill */
+#skill ul span.highlight {
+    font-weight: 1000;
+}
+/* Ukuran tebal teks 1000 */
+
+/* Style pada bagian footer secara universal */
+footer {
+    padding: 16px;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background: #340000;
+    color: #ffffff;
+}
+/* Padding 16px, font size 18px, font Verdana, isi menengah, background hitam kemerahan, dan warna teks putih */
